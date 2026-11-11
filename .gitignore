@@ -1,0 +1,28 @@
+# Build output
+.build/
+dist/
+android/.gradle/
+android/build/
+android/app/build/
+*.apk
+*.aab
+*.dmg
+*.xcarchive
+
+# Local credentials and machine-specific configuration
+Sources/TaskBuddyApp/Resources/SupabaseConfig.json
+mobile/config.js
+android/local.properties
+android/app/src/main/assets/config.js
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+
+# Local tooling and OS files
+.DS_Store
+__pycache__/
+*.pyc

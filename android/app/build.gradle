@@ -1,0 +1,23 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.taskbuddy.phone"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.taskbuddy.phone"
+        minSdk 26
+        targetSdk 35
+        versionCode 10
+        versionName "1.4.2"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+}

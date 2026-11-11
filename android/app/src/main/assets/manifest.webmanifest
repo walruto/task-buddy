@@ -1,0 +1,11 @@
+{
+  "name": "Task Buddy",
+  "short_name": "Task Buddy",
+  "description": "Add and complete tasks for your desktop buddy.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#151219",
+  "theme_color": "#24182f",
+  "icons": [{ "src": "icon-256.png", "sizes": "256x256", "type": "image/png", "purpose": "any maskable" }]
+}
